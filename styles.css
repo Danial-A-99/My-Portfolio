@@ -1,3 +1,16 @@
 body{
-    background-color: darkblue;
+    background-color: rgba(158, 112, 85, 0.548);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    border-radius: 30px;
+    border: 2px solid rgb(85, 85, 158)
+}
+
+.set-boxes{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid rgb(85, 85, 158);
 }
