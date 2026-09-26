@@ -64,7 +64,26 @@ h1{
 }
 
 @media (max-width: 1000px){
+    h1{
+        font-size: 75px;
+    }
+    .subtitle-text{
+        font-size: 25px;
+    }
+    .navigation-bar{
+        flex-wrap: wrap;
+    }
+    .nav-buttons{
+        width: 20%;
+
+    }
     .project-pics{
         display:block;
+        justify-content: center;
+    }
+    .set-boxes{
+        width: 60%;
+        height: auto;
+        margin: 20%;
     }
 }
