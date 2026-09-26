@@ -1,11 +1,29 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+
 body{
-    background-color: rgba(158, 112, 85, 0.548);
+    background: linear-gradient(to right,rgb(31, 19, 85),rgba(29, 103, 126, 0.767));
     font-family: 'Courier New', Courier, monospace;
 }
 
 h1{
-    border-radius: 30px;
-    border: 2px solid rgb(85, 85, 158)
+    color: aliceblue;
+}
+
+.subtitle-text{
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
 }
 
 .center-text{
@@ -22,4 +40,24 @@ h1{
     margin: 20px;
     border: 2px solid rgb(85, 85, 158);
 
+}
+
+.nav-buttons{
+    width: 10%;
+    height: 40px;
+    margin: 20px;
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.nav-buttons:hover{
+    width: 15%;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
