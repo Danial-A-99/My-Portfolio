@@ -46,13 +46,12 @@ h1{
 }
 
 .explanation-box{
-    padding: 20px;
+    padding: 50px;
     overflow-x: auto;
 }
 
 .explanation-text{
     color: aliceblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav-buttons{
